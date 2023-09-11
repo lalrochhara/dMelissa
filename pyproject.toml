@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "PyroBot"
+version = "1.0.0"
+description = "A template which I use to make my telegram bots!"
+authors = ["Divkix <divkix@divkix.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Pyrogram = "^2.0.106"
+TgCrypto = "^1.2.5"
+prettyconf = "^2.2.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.13.9"
+pre-commit = "^2.21.0"
+pyclean = "^2.7.3"
+isort = "^5.11.5"
+black = "^23.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
